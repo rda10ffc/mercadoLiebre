@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="home_header">
         <!-- imagen del logo -->
         <img src="/img/logo-mercado-liebre.svg" alt="Logo mercadoLiebre">
         <!-- formulario -->
@@ -19,8 +19,12 @@
             <input type="text" placeholder="Buscar productos, marca">
             <button><i class="fas fa-search"></i></button>
         </form>
-        <h4>Compra en cuotas y sin tarjeta de credito</h4>
-        <nav>
+        <!-- creo un div y agrego icono de mano  -->
+        <div>
+        <h4>
+           <i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito</h4>
+    </div>
+        <nav class="home_header--navegacion-link">
             <ul>
                 <li><a href="/">Ofertas</a></li>
                 <li><a href="/">Tiendas</a></li>
@@ -29,12 +33,16 @@
             </ul>
         </nav>
         <nav>
-            <ul>
+            <ul class="home_header--navegacion-menu">
                 <li><a href="/">Crea tu cuenta</a></li>
                 <li><a href="/">Ingresa</a></li>
                 <li><a href="/">Mis compras</a></li>
             </ul>
         </nav>
+        <!-- agrego div con icono de hamburguesa -->
+        <div class="menu-hamburguesa">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
     <main>
         <section>
@@ -95,14 +103,17 @@
     <footer>
         <section>
             <article>
+                <i class="fas fa-credit-card"></i>
             <h3>Paga con tarjeta o en efectivo</h3>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
                 efectivo en puntos de pago. ¡Y siempre es seguro!</p>
             </article>
+            <i class="fas fa-gift"></i>
             <h3>Envio gratis desde $2.500</h3>
             <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
                 miles de productos. Es un beneficio de Mercado Puntos.</p>
             </article>
+            <i class="fas fa-user-shield"></i>
             <h3>Seguridad, de principio a fin</h3>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>

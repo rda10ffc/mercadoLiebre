@@ -28,6 +28,7 @@ descripciones 16px*/
 body{
     font-family: "Roboto", sans-serif;
     font-size: 12px;
+    background-color: var(--grisClaro);
 }
 
 /* quito la decoracion de las li */

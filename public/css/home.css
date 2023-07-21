@@ -1,0 +1,83 @@
+/* HEADER */
+.home_header{
+    background-color: var(--amarillo);/* color de fondo */
+    background-size: cover;/* para que la imagen escale sin estirarse */
+}
+
+
+
+.home_header img{
+    width: 30%;
+    height: 50%;
+    margin: 10px;
+    margin-left: 24px;
+}
+
+.home_header form{
+    margin-left: 10px;
+}
+
+.home_header--div{
+    margin: 10px;
+}
+
+.home_header--div h4{
+    margin-left: 20px;
+}
+
+.home_header--navegacion-menu{
+    margin-top: 10px;
+}
+.home_header--navegacion-menu ul li a{
+    margin-right: 5px;
+}
+.menu_hamburguesa{
+    text-align: center;
+}
+.menu_hamburguesa i{
+    padding: 10px;
+    background-color: var(--celeste);
+    border-radius: 15%;
+    color: var(--grisClaro);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+/* MAIN */
+main section h2{
+    font-size: 24px ;
+}
+main section article img{
+    width: 100%;
+}
+main section article .precio{
+    font-size: 18px;
+}
+main section article .descuento{
+    font-size: 16px;
+}
+main section article h3{
+    font-size: 16px;
+}
+
+.main h2{
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer section{
+    text-align: center;
+    margin: 0px 48px;
+}
+
+footer section article i{
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    color: var(--celeste);
+}
+
+.copyright{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 8px;
+}

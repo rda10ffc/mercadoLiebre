@@ -2,6 +2,7 @@
 .home_header{
     background-color: var(--amarillo);/* color de fondo */
     background-size: cover;/* para que la imagen escale sin estirarse */
+    padding: 30px 5px 15px;
 }
 
 
@@ -10,7 +11,7 @@
     width: 30%;
     height: 50%;
     margin: 10px;
-    margin-left: 24px;
+    margin-left: 1.5em;
 }
 
 .home_header form{
@@ -25,8 +26,11 @@
     margin-left: 20px;
 }
 
+.home_header--navegacion-opciones{
+    display: none;
+}
 .home_header--navegacion-menu{
-    margin-top: 10px;
+    display: none;
 }
 .home_header--navegacion-menu ul li a{
     margin-right: 5px;
@@ -42,25 +46,56 @@
     font-size: 2em;
     margin-bottom: 10px;
 }
+
 /* MAIN */
-main section h2{
-    font-size: 24px ;
+main{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main section article{
+    position: relative;
+    background-color: white;
+    margin: 10px;
+    border-top:1px solid #ebebeb ;
+    padding: 15px;
+}
+
+main section article div i{
+    position: relative;
+    right: 90px;
+    color: var(--verde);
+    padding: 8px;
+    border: solid 1px var(--verde);
+    font-size: 16px;
+    border-radius: 50%;
 }
 main section article img{
     width: 100%;
 }
 main section article .precio{
     font-size: 18px;
+    position: relative;
+    right: 80px;
 }
 main section article .descuento{
     font-size: 16px;
+    position: relative;
+    right: 78px;
+    color: var(--verde);
 }
 main section article h3{
     font-size: 16px;
 }
 
-.main h2{
+/* titulos de basado y  ofertas */
+h2{
     font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    padding: 10px;
+    color: var(--grisOscuro);
 }
 
 /* FOOTER */
@@ -80,4 +115,53 @@ footer section article i{
     margin-top: 10px;
     text-align: left;
     font-size: 8px;
+}
+
+@media (min-width:361px){
+    .home_header--div{
+        text-align: center;
+    }
+    .home_header nav{
+        margin: 8px;
+    }
+    .home_header--navegacion-menu{
+        display: block;
+    }
+    .home_header--navegacion-opciones{
+        display: block;
+    }
+    .menu_hamburguesa{
+        display: none;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main section article h3{
+        display: block;
+    }
+
+}
+@media (min-width:769px){
+    .home_header--div{
+        text-align: center;
+    }
+    .home_header nav{
+        margin: 8px;
+    }
+    .home_header--navegacion-menu{
+        display: block;
+    }
+    .home_header--navegacion-opciones{
+        display: block;
+    }
+    .menu_hamburguesa{
+        display: none;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main section article h3{
+        display: block;
+    }
+
 }

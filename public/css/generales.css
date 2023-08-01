@@ -17,14 +17,6 @@
     --verde: #39b54a;
 }
 
-/* tamaños de tipografia
-cuerpo texto 12px
-titulos 24px 
-precios 18px
-descuentos 16px
-descripciones 16px*/
-
-/* aplico el tipo de letra para todo el body */
 body{
     font-family: "Roboto", sans-serif;
     font-size: 12px;

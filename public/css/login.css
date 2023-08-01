@@ -25,7 +25,9 @@ input, .main_form_login_button {
     width: 100%;
     box-sizing: border-box; /* Agregamos esta línea para que el padding no afecte el ancho */
 }
-
+.main_form_login_button:hover{
+    background-color: #0022AA;
+}
 input{
     border: none;
     border-radius: 10px;
